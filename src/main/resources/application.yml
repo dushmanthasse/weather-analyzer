@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: weather-analyzer
+  cache:
+    type: caffeine
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
