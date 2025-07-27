@@ -25,7 +25,7 @@ public class WeatherController {
     private WeatherService weatherService;
 
     @GetMapping
-    public ResponseEntity<WeatherSummary> getWeatherSummary(@RequestParam String city) throws ExecutionException, InterruptedException {
+    public ResponseEntity<WeatherSummary> getWeatherSummary(@RequestParam String city) {
         log.info("Weather summery for city: {}", city);
         try {
             WeatherSummary summary = weatherService.weatherSummary(city).get();

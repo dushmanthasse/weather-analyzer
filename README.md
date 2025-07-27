@@ -63,8 +63,9 @@ Run all tests
    mvn test
 ```
 
-## Authors
+## Contact
 
-If you have any questions or need further assistance, you can reach out to
+For questions or support, please contact:
 
-- [Chanaka Dushmantha](dushmantha.sse@gmail.com)
+**Chanaka Dushmantha**  
+Email: [dushmantha.sse@gmail.com](mailto:dushmantha.sse@gmail.com)
