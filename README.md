@@ -41,7 +41,7 @@ Before using this project, ensure you have the following:
 ## API Endpoint
 
 ```
-GET /weather?city={Landon}
+GET /weather?city={cityName}
 ```
 
 ### Response
@@ -53,6 +53,16 @@ GET /weather?city={Landon}
   "hottestDay": "2024-11-20",
   "coldestDay": "2024-11-18"
 }
+```
+
+## Example Usage
+
+```
+   curl "http://localhost:8080/weather?city=London"
+   curl "http://localhost:8080/weather?city=Tokyo"
+   curl "http://localhost:8080/weather?city=Kandy"
+   curl "http://localhost:8080/weather?city=Sydney"
+   curl "http://localhost:8080/weather?city=Colombo"
 ```
 
 ## Testing

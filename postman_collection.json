@@ -1,0 +1,410 @@
+{
+	"info": {
+		"_postman_id": "86007261-bb00-40c2-8cd8-1e8b4e660823",
+		"name": "weather-analyzer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8309774"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/weather?city=London",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather?city=London",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "London"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/weather?city=London",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/weather?city=London",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"weather"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "London"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 27 Jul 2025 16:38:15 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city\": \"London\",\n    \"averageTemperature\": 18.74,\n    \"hottestDay\": \"2025-07-31\",\n    \"coldestDay\": \"2025-07-28\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/weather?city=Tokyo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather?city=Tokyo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Tokyo"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/weather?city=Tokyo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/weather?city=Tokyo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"weather"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Tokyo"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 27 Jul 2025 16:38:24 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city\": \"Tokyo\",\n    \"averageTemperature\": 28.96,\n    \"hottestDay\": \"2025-07-29\",\n    \"coldestDay\": \"2025-07-30\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/weather?city=Kandy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather?city=Kandy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Kandy"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/weather?city=Kandy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/weather?city=Kandy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"weather"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Kandy"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 27 Jul 2025 16:39:05 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city\": \"Kandy\",\n    \"averageTemperature\": 23.44,\n    \"hottestDay\": \"2025-08-01\",\n    \"coldestDay\": \"2025-07-29\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/weather?city=Sydney",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather?city=Sydney",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Sydney"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/weather?city=Sydney",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/weather?city=Sydney",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"weather"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Sydney"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 27 Jul 2025 16:38:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city\": \"Sydney\",\n    \"averageTemperature\": 12.28,\n    \"hottestDay\": \"2025-07-28\",\n    \"coldestDay\": \"2025-07-28\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/weather?city=Colombo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/weather?city=Colombo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Colombo"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/weather?city=Colombo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/weather?city=Colombo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"weather"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Colombo"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 27 Jul 2025 16:38:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city\": \"Colombo\",\n    \"averageTemperature\": 27.04,\n    \"hottestDay\": \"2025-07-28\",\n    \"coldestDay\": \"2025-07-30\"\n}"
+				}
+			]
+		}
+	]
+}

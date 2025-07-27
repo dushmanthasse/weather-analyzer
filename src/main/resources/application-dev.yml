@@ -1,6 +1,6 @@
 weather:
   api:
-    key: ${WEATHER_API_KEY:64357b8936421af79c9c519ec0a532ed}
+    key: ${WEATHER_API_KEY:a1b2c3d4}
     url: ${WEATHER_URL:https://api.openweathermap.org/data/2.5/forecast}
 
 logging:
